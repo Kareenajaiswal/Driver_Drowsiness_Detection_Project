@@ -24,6 +24,8 @@ def eye_aspect_ratio(eye):
 
 def detect_eyes(frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    print(frame.shape)
+
     faces = face_detector(gray)
 
     if len(faces) == 0:  # Check if no faces are detected
