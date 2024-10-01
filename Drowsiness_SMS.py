@@ -1,12 +1,30 @@
-# pip install opencv-python mediapipe scipy pygame numpy
-
-
 import cv2
 import mediapipe as mp
 from scipy.spatial import distance
 import pygame
 import time
 import logging
+from twilio.rest import Client
+
+# Twilio credentials (replace with your actual credentials)
+ACCOUNT_SID = 'AC1e6b8310812840be52ba28b4fed53040'
+AUTH_TOKEN = '4fadabe5668498b29e2fc1e3dc3b2a28'
+TWILIO_PHONE_NUMBER = '+13343264870'
+TARGET_PHONE_NUMBER = '+918777417805'
+
+# Twilio client
+client = Client(ACCOUNT_SID, AUTH_TOKEN)
+
+def send_sms_alert():
+    try:
+        message = client.messages.create(
+            body="Drowsiness detected! Please stay alert.",
+            from_=TWILIO_PHONE_NUMBER,
+            to=TARGET_PHONE_NUMBER
+        )
+        print(f"SMS sent: {message.sid}")
+    except Exception as e:
+        print(f"Failed to send SMS: {e}")
 
 # Initialize Pygame mixer
 pygame.mixer.init()
@@ -103,6 +121,10 @@ while True:
                         log_event()  # Log the drowsiness event
                         drowsy_event_count += 1
                         last_alert_time = time.time()  # Update the last alert time
+                        
+                        # Send SMS alert
+                        send_sms_alert()
+
                         if drowsy_event_count >= FATIGUE_THRESHOLD:
                             cv2.putText(frame, "FATIGUE DETECTED! TAKE A BREAK!", (10, 60),
                                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
