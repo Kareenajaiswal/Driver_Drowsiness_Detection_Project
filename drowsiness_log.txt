@@ -90,3 +90,71 @@
 2024-10-01 17:06:13,114 - -- END Twilio API Request --
 2024-10-01 17:06:13,918 - Response Status Code: 400
 2024-10-01 17:06:13,919 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '332', 'Connection': 'keep-alive', 'Date': 'Tue, 01 Oct 2024 11:36:14 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21608', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc9ff8d8dd12a4486a38192689f43ea3d', 'Twilio-Request-Duration': '0.057', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 081f4dccbf59d5fd34750786ea392d28.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CCU50-P4', 'X-Amz-Cf-Id': 'ypqAQ-F3VFK2EfGV6sewOOssncWwNJVIhkfNdJgk4gaD4wyzli2_5A=='}
+2024-11-10 15:34:17,386 - Drowsiness event detected!
+2024-11-10 15:34:33,056 - Drowsiness event detected!
+2024-11-10 15:34:59,544 - Drowsiness event detected!
+2024-11-10 15:35:08,216 - Drowsiness event detected!
+2024-11-10 15:35:14,517 - Drowsiness event detected!
+2024-11-10 15:35:26,173 - Drowsiness event detected!
+2024-11-10 16:38:05,289 - Drowsiness event detected!
+2024-11-10 16:38:14,340 - Drowsiness event detected!
+2024-11-10 16:50:04,176 - Drowsiness event detected!
+2024-11-10 16:50:04,831 - -- BEGIN Twilio API Request --
+2024-11-10 16:50:04,831 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC74d69a1cde24a4c993fc1466d78fd006/Messages.json
+2024-11-10 16:50:04,832 - Headers:
+2024-11-10 16:50:04,832 - Content-Type : application/x-www-form-urlencoded
+2024-11-10 16:50:04,832 - User-Agent : twilio-python/9.3.6 (Windows AMD64) Python/3.10.11
+2024-11-10 16:50:04,832 - X-Twilio-Client : python-9.3.6
+2024-11-10 16:50:04,832 - Accept-Charset : utf-8
+2024-11-10 16:50:04,832 - Accept : application/json
+2024-11-10 16:50:04,832 - -- END Twilio API Request --
+2024-11-10 16:50:06,378 - Response Status Code: 400
+2024-11-10 16:50:06,379 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '193', 'Connection': 'keep-alive', 'Date': 'Sun, 10 Nov 2024 11:20:05 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21660', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ31aab714ac5a93218d5f0ce6154bfbed', 'Twilio-Request-Duration': '0.096', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 d5d581324f7c00665941b8e3d5683e78.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CCU50-P4', 'X-Amz-Cf-Id': 'ToSSVrRet2_aSc6-_WvMa299atL0NMov80v7q6JO-bGAn3-sezZ1WQ=='}
+2024-11-10 17:15:09,767 - Drowsiness event detected!
+2024-11-10 17:15:09,862 - -- BEGIN Twilio API Request --
+2024-11-10 17:15:09,862 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbac02d5dc0263141b224df3c6811833b/Messages.json
+2024-11-10 17:15:09,862 - Headers:
+2024-11-10 17:15:09,862 - Content-Type : application/x-www-form-urlencoded
+2024-11-10 17:15:09,862 - User-Agent : twilio-python/9.3.6 (Windows AMD64) Python/3.10.11
+2024-11-10 17:15:09,862 - X-Twilio-Client : python-9.3.6
+2024-11-10 17:15:09,862 - Accept-Charset : utf-8
+2024-11-10 17:15:09,863 - Accept : application/json
+2024-11-10 17:15:09,863 - -- END Twilio API Request --
+2024-11-10 17:15:11,382 - Response Status Code: 201
+2024-11-10 17:15:11,383 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Sun, 10 Nov 2024 11:45:10 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQec1808bfc13ba8f400073b27ab6ff001', 'Twilio-Request-Duration': '0.149', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1b87a6ee309264786666693d35ccced0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CCU50-P4', 'X-Amz-Cf-Id': '_goFS_l3dzdLW65gc1CVFw0M1q5V1J1Eer7Qh0s4z8KA4p0rZzcKkw=='}
+2024-11-10 17:16:12,818 - Drowsiness event detected!
+2024-11-10 17:16:12,928 - -- BEGIN Twilio API Request --
+2024-11-10 17:16:12,928 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbac02d5dc0263141b224df3c6811833b/Messages.json
+2024-11-10 17:16:12,928 - Headers:
+2024-11-10 17:16:12,928 - Content-Type : application/x-www-form-urlencoded
+2024-11-10 17:16:12,928 - User-Agent : twilio-python/9.3.6 (Windows AMD64) Python/3.10.11
+2024-11-10 17:16:12,928 - X-Twilio-Client : python-9.3.6
+2024-11-10 17:16:12,928 - Accept-Charset : utf-8
+2024-11-10 17:16:12,928 - Accept : application/json
+2024-11-10 17:16:12,928 - -- END Twilio API Request --
+2024-11-10 17:16:14,639 - Response Status Code: 201
+2024-11-10 17:16:14,639 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Sun, 10 Nov 2024 11:46:13 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3626a3bbd240ab44266994807b3802f0', 'Twilio-Request-Duration': '0.129', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 ad4d8134b7edbfc8b2d709b8e2f72270.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CCU50-P4', 'X-Amz-Cf-Id': 'tJAAEK9UOHz4F3Q9W9_7qZRKr4S13wPh6Q6f5_hUv5CdXntmSB6ETQ=='}
+2024-11-10 17:16:22,690 - Drowsiness event detected!
+2024-11-10 17:16:22,691 - -- BEGIN Twilio API Request --
+2024-11-10 17:16:22,691 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbac02d5dc0263141b224df3c6811833b/Messages.json
+2024-11-10 17:16:22,691 - Headers:
+2024-11-10 17:16:22,691 - Content-Type : application/x-www-form-urlencoded
+2024-11-10 17:16:22,691 - User-Agent : twilio-python/9.3.6 (Windows AMD64) Python/3.10.11
+2024-11-10 17:16:22,691 - X-Twilio-Client : python-9.3.6
+2024-11-10 17:16:22,691 - Accept-Charset : utf-8
+2024-11-10 17:16:22,692 - Accept : application/json
+2024-11-10 17:16:22,692 - -- END Twilio API Request --
+2024-11-10 17:16:23,695 - Response Status Code: 201
+2024-11-10 17:16:23,696 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Sun, 10 Nov 2024 11:46:22 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfe2fd2ebfa0bff0511d3c3b0a075ba62', 'Twilio-Request-Duration': '0.116', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 ad4d8134b7edbfc8b2d709b8e2f72270.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CCU50-P4', 'X-Amz-Cf-Id': 'svsPckvJ935gxvC-wXFhtJj0ZkSi7oYXdRLvTeNwJV9bCLPjuyh5TA=='}
+2024-11-10 20:58:59,064 - Drowsiness event detected!
+2024-11-10 20:58:59,281 - -- BEGIN Twilio API Request --
+2024-11-10 20:58:59,281 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbac02d5dc0263141b224df3c6811833b/Messages.json
+2024-11-10 20:58:59,281 - Headers:
+2024-11-10 20:58:59,281 - Content-Type : application/x-www-form-urlencoded
+2024-11-10 20:58:59,281 - User-Agent : twilio-python/9.3.6 (Windows AMD64) Python/3.10.11
+2024-11-10 20:58:59,281 - X-Twilio-Client : python-9.3.6
+2024-11-10 20:58:59,282 - Accept-Charset : utf-8
+2024-11-10 20:58:59,282 - Accept : application/json
+2024-11-10 20:58:59,282 - -- END Twilio API Request --
+2024-11-10 20:59:02,384 - Response Status Code: 201
+2024-11-10 20:59:02,384 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Sun, 10 Nov 2024 15:29:01 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe139c7220052b6da27f154461b5d716c', 'Twilio-Request-Duration': '0.157', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1b87a6ee309264786666693d35ccced0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CCU50-P4', 'X-Amz-Cf-Id': 'ljUFbRTgt6ugEqQy4aQKU59cUQTuetB7wLKmMyc6gRp5oC153_edWg=='}

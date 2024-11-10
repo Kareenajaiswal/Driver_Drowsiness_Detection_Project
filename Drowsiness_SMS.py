@@ -7,9 +7,9 @@ import logging
 from twilio.rest import Client
 
 # Twilio credentials (replace with your actual credentials)
-ACCOUNT_SID = 'AC1e6b8310812840be52ba28b4fed53040'
-AUTH_TOKEN = '4fadabe5668498b29e2fc1e3dc3b2a28'
-TWILIO_PHONE_NUMBER = '+13343264870'
+ACCOUNT_SID = 'ACbac02d5dc0263141b224df3c6811833b'
+AUTH_TOKEN = '3c2a316a2968b82a723c1bcacdaf5ffe'
+TWILIO_PHONE_NUMBER = '+12564148461'
 TARGET_PHONE_NUMBER = '+918777417805'
 
 # Twilio client
@@ -135,7 +135,7 @@ while True:
                 drowsy_event_count = max(0, drowsy_event_count - 1)  # Reduce event count over time
 
             # Visual feedback for eye state
-            state_text = "Eyes Open" if ear >= EAR_THRESHOLD else "Eyes Closed"
+            state_text = "Active" if ear >= EAR_THRESHOLD else "Drowsy"
             cv2.putText(frame, f"State: {state_text}", (10, 90),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
     else:

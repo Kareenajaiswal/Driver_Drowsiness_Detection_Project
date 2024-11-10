@@ -113,7 +113,7 @@ while True:
                 drowsy_event_count = max(0, drowsy_event_count - 1)  # Reduce event count over time
 
             # Visual feedback for eye state
-            state_text = "Eyes Open" if ear >= EAR_THRESHOLD else "Eyes Closed"
+            state_text = "Active" if ear >= EAR_THRESHOLD else "Drowsy"
             cv2.putText(frame, f"State: {state_text}", (10, 90),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
     else:
